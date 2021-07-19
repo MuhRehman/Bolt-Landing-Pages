@@ -275,8 +275,9 @@ margin-left: auto;
   transition: 1s ease-in-out all;
 }
 .carousel .slides .slide img {
- margin-left: 33px;
- margin-right: 33px;
+  margin-left: 13px;
+  width: 40%;
+  margin-right: 13px;
 }
 .carousel .slides .slide {
   min-width: 100%;
