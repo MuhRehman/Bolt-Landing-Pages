@@ -279,6 +279,12 @@ margin-left: auto;
   width: 40%;
   margin-right: 13px;
 }
+.back-top :hover {
+  
+  width: 140px;
+  border-radius: 10%;
+  padding: 3px;
+}
 .carousel .slides .slide {
   min-width: 100%;
   min-height: 250px;
