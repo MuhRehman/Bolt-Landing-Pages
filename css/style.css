@@ -1,3 +1,76 @@
+@font-face {
+  font-family: Mulish-Medium;
+  src: url(fonts/Mulish-Medium.ttf);
+}
+@font-face {
+  font-family: Mulish-ExtraBold;
+  src: url(fonts/Mulish-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Mulish-Regular;
+  src: url(fonts/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish-ExtraLight;
+  src: url(fonts/Mulish-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Mulish-Italic;
+  src: url(fonts/Mulish-Italic.ttf);
+}
+
+.object-img {
+width: 75px;
+padding: 10px;
+}
+
+.media-body p {
+width: 410px;
+}
+.media-body p {
+  font-family: Mulish-Italic;
+  font-size: 14px;
+  font-weight: 400;
+  color: #565657;
+}
+
+.media-body h5 span {
+  font-family: Mulish-Italic;
+  font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+}
+.banner-text h2 {
+  font-family: Mulish-Medium;
+  font-weight: 700;
+  font-size: 20px;
+  color: #186AF4;
+}
+.banner-text h1 span {
+  font-size: 90px;
+  color: #186AF4;
+}
+.banner-text h1 {
+  font-family: Mulish-ExtraBold;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 70px;
+}
+.banner-text .inner-text {
+  font-family: Mulish-Medium;
+  font-weight: 500;
+  font-size: 18px;
+  color: #999FAE;
+  width: 408px;
+}
+
+
+.banner-container{
+
+    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+  }
 .custom-container{
 
     width: 90%;
@@ -235,7 +308,9 @@ font-size: 22px;
   font-size: 18px;
   border: 1px solid rgb(22, 84, 255);
 }
-
+.banner-right {
+  width: 90%;
+}
 
   @media (min-width: 1600px) {
       .container {
