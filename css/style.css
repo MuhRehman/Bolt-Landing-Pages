@@ -318,7 +318,30 @@ font-size: 22px;
 .banner-right {
   width: 90%;
 }
-
+.banner-input h2 {
+ color: #000000;
+ font-weight: 800;
+ font-family: Mulish-Medium;
+ 
+}
+.student-headings  p {
+ color: #999FAE;
+ font-size: 18px;
+ font-weight: 400;
+ font-family: Mulish-Medium;
+ 
+}
+.banner-input-number {
+  border: 1px solid rgb(221, 217, 217);
+  border-radius: 34px;
+width: fit-content;
+  margin: 30px 8px;
+  padding: 22px;
+  box-shadow: 0 3px 6px rgb(197 197 197 / 16%), 1px 13px 12px rgb(184 182 182 / 23%);
+}
+.student-headings h2 {
+  color: #000000;
+}
   @media (min-width: 1600px) {
       .container {
           max-width: 1600px;
