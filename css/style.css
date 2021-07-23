@@ -322,7 +322,7 @@ font-size: 22px;
  color: #000000;
  font-weight: 800;
  font-family: Mulish-Medium;
- 
+ padding: 3rem;
 }
 .card-bg {
  
@@ -332,6 +332,15 @@ font-size: 22px;
   height: 3300px; /* You must set a specified height */
   background-position: center; 
   background-position: auto auto;
+}
+.card-bg-mobile {
+ 
+ width: 100%;
+  background-image: url("../img/mobile-cards.png");
+  background-repeat: no-repeat;
+  height: 4400px; 
+  background-position: center; 
+  background-position: auto auto; 
 }
 .student-headings  p {
  color: #999FAE;
@@ -668,11 +677,11 @@ transform: translate(0%, 50%);
   .card-one-wrapper {
     position:relative;
     height: 300px;
-  /* border: 2px solid red; */
+    /* border: 2px solid red; */
   }
-
+  
   .card-bg {
- 
+    
     width: 94vw;
     background-image: url("../img/bg-cards/bgcards.png");
     background-repeat: no-repeat;
@@ -680,8 +689,23 @@ transform: translate(0%, 50%);
     background-position: center; 
     background-position: auto auto;
   }
- }
-  
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .banner-text h1 {
+    font-family: Mulish-ExtraBold;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+}
+.banner-text .inner-text {
+  font-family: Mulish-Medium;
+  font-weight: 500;
+  font-size: 10px;
+  color: #999FAE;
+  width: 326px;
+}
+}
 .intl-tel-input {
   position: relative;
   display: inline-block;
