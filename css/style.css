@@ -324,6 +324,15 @@ font-size: 22px;
  font-family: Mulish-Medium;
  
 }
+.card-bg {
+ 
+
+  background-image: url("../img/bg-cards/bgcards.png");
+  background-repeat: no-repeat;
+  height: 3300px; /* You must set a specified height */
+  background-position: center; 
+  background-position: auto auto;
+}
 .student-headings  p {
  color: #999FAE;
  font-size: 18px;
@@ -377,15 +386,301 @@ width: fit-content;
 
 
 
+.card-one-wrapper {
+  position:relative;
+  height: 300px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-one-wrapper .card-one {
+  /* height: 100px; */
+  /* border: 2px solid red; */
+  /* text-align: left;
+  width: 30%;
+  position:absolute;
+
+left:10%; 
+transform: translate(0%, 110%); */
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 20vw;
+  width: 20vw;;
+  text-align: left;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.card-two-wrapper {
+  position:relative;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-two-wrapper .card-two {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width:20vw;
+  position:absolute;
+top:0px;
+left:55%;
+transform: translate(0%, 50%);
+
+}
+.card-three-wrapper {
+  position:relative;
+  margin-top: 5%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-three-wrapper .card-three {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+top:0px;
+left:10%;
+transform: translate(0%, 50%);
+
+}
+.card-four-wrapper {
+  position:relative;
+  margin-top: 5%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-four-wrapper .card-four {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+  top: 0px;
+  left: 55%;
+  transform: translate(0%, 50%);
+
+}
+.card-five-wrapper {
+  position:relative;
+  margin-top:3%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-five-wrapper .card-five {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+top:0px;
+left:10%;
+transform: translate(0%, 50%);
+
+}
+.card-six-wrapper {
+  position:relative;
+  margin-top: 4%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-six-wrapper .card-six {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+  top: 0px;
+  left: 55%;
+  transform: translate(0%, 50%);
+
+}
+.card-seven-wrapper {
+  position:relative;
+  margin-top: 4%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-seven-wrapper .card-seven {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+top:0px;
+left:10%;
+transform: translate(0%, 50%);
+
+}
 
 
 
 
+.card-eat-wrapper {
+  position:relative;
+  margin-top: 4%;
+  height: 200px;
+/* border: 2px solid red; */
+}
 
 
 
+.card-eat-wrapper .card-eat {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+  top: 0px;
+  left: 55%;
+  transform: translate(0%, 50%);
+
+}
 
 
+
+.card-nine-wrapper {
+  position:relative;
+  margin-top: 4%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-nine-wrapper .card-nine {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+top:0px;
+left:10%;
+transform: translate(0%, 50%);
+
+}
+
+.card-ten-wrapper {
+  position:relative;
+  margin-top: 5%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-ten-wrapper .card-ten {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+  top: 0px;
+  left: 55%;
+  transform: translate(0%, 50%);
+
+}
+
+.card-eleven-wrapper {
+  position:relative;
+  margin-top: 3%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-eleven-wrapper .card-eleven {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+top:0px;
+left:10%;
+transform: translate(0%, 50%);
+
+}
+
+.card-twenty-wrapper {
+  position:relative;
+  margin-top: 3%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-twenty-wrapper .card-twenty {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width:20vw;
+  position:absolute;
+  top: 0px;
+  left: 55%;
+  transform: translate(0%, 50%);
+
+}
+
+ .card-thirteen-wrapper {
+  position:relative;
+  margin-top: 3%;
+  height: 200px;
+/* border: 2px solid red; */
+}
+
+
+
+.card-thirteen-wrapper .card-thirteen {
+  height: 100px;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 20vw;
+  position:absolute;
+  vertical-align: middle;
+top:0%;
+left:10%;
+transform: translate(0%, 50%);
+
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .card-one-wrapper {
+    position:relative;
+    height: 300px;
+  /* border: 2px solid red; */
+  }
+
+  .card-bg {
+ 
+    width: 94vw;
+    background-image: url("../img/bg-cards/bgcards.png");
+    background-repeat: no-repeat;
+    height: 3300px; /* You must set a specified height */
+    background-position: center; 
+    background-position: auto auto;
+  }
+ }
   
 .intl-tel-input {
   position: relative;
