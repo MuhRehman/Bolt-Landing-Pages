@@ -18,12 +18,19 @@
   font-family: Mulish-Italic;
   src: url(fonts/Mulish-Italic.ttf);
 }
-
+.top-btn {
+  display: block;
+}
 .object-img {
 width: 75px;
 padding: 10px;
 }
-
+.totam-section-mobile {
+  display: block;
+}
+.totam-section1 {
+  display: none ;
+}
 .media-body p {
 width: 410px;
 }
@@ -722,6 +729,74 @@ transform: translate(0%, 50%);
 input, select {
   border: none;
   width: 160px !important;
+}
+.top-btn {
+  display: none !important;
+}
+.image-container {
+  width: 100%;
+  height: 400px;
+}
+.tatam-content h2 {
+  font-size: 40px;
+  color: #186af4;
+}
+.totam-section {
+  margin-top: 420px;
+  background-image: url(../img/bg12.png);
+  height: 280px;
+  background-position: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-container {
+  width: 90%;
+
+}
+.media-body p {
+  font-family: Mulish-Italic;
+  font-size: 10px;
+  width: fit-content;
+}
+.tatam-content p {
+  font-size: 10px;
+  color: #4d4f52;
+}
+.object-img {
+  width: 61px;
+  padding: 18px;
+}
+.media-body h5 span {
+  font-family: Mulish-Italic;
+  font-size: 15px;
+  font-weight: 800;
+  color: #000000;
+}
+.media-body h5 {
+  font-family: Mulish-Italic;
+  font-size: 15px;
+  font-weight: 800;
+  color: #000000;
+}
+.input-number {
+
+  width: 90%;
+}
+.carousel {
+  width: 100%;
+  height: 250px;
+ 
+}
+.carousel .slides {
+ 
+  top: 75%;
+ 
+}
+.totam-section1 {
+  display: block ;
+}
+.totam-section-mobile {
+  display: none;
 }
 }
 .intl-tel-input {
