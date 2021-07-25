@@ -805,7 +805,23 @@ input, select {
 .totam-section-mobile {
   display: none;
 }
+.frontside {
+  margin-top: 12px;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------600px------------------------------------------------------ */
 .intl-tel-input {
   position: relative;
   display: inline-block;
