@@ -34,6 +34,13 @@ padding: 10px;
 .media-body p {
 width: 410px;
 }
+ul li .text-dark:hover {
+color: #dce3f0 !important;
+cursor: pointer;
+}
+.frontside:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 16px rgba(0,0,0,0.23);
+}
 .media-body p {
   font-family: Mulish-Italic;
   font-size: 14px;
